@@ -7,13 +7,14 @@ export async function sendMessage(
 ): Promise<{ content: string; feedback?: Message['feedback'] }> {
 
   // If Groq API key is provided, use real AI
-  if (apiKey || process.env.GROQ_API_KEY) {
+  const groqKey = apiKey || process.env.NEXT_PUBLIC_GROQ_API_KEY;
+  if (groqKey) {
     try {
       const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${apiKey || process.env.GROQ_API_KEY}`,
+          'Authorization': `Bearer ${groqKey}`,
         },
         body: JSON.stringify({
           model: 'llama-3.3-70b-versatile',
