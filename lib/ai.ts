@@ -6,17 +6,17 @@ export async function sendMessage(
   apiKey?: string
 ): Promise<{ content: string; feedback?: Message['feedback'] }> {
 
-  // If OpenAI API key is provided, use real AI
-  if (apiKey || process.env.OPENAI_API_KEY) {
+  // If Groq API key is provided, use real AI
+  if (apiKey || process.env.GROQ_API_KEY) {
     try {
-      const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${apiKey || process.env.OPENAI_API_KEY}`,
+          'Authorization': `Bearer ${apiKey || process.env.GROQ_API_KEY}`,
         },
         body: JSON.stringify({
-          model: 'gpt-4o',
+          model: 'llama-3.3-70b-versatile',
           messages: [
             { role: 'system', content: systemPrompt },
             ...messages.map((m) => ({ role: m.role, content: m.content })),

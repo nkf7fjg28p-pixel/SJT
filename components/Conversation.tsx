@@ -182,7 +182,7 @@ export default function Conversation() {
             onClick={() => setShowApiModal(true)}
             className="text-xs px-3 py-1.5 rounded-lg border border-[#27272A] text-[#71717A] hover:text-white hover:border-[#3F3F46] transition-colors"
           >
-            {apiKey ? '🟢 AI Connected' : '⚙️ Add API Key'}
+            {apiKey ? '🟢 AI Connected' : '⚙️ Groqキー追加'}
           </button>
         </div>
 
@@ -246,10 +246,10 @@ export default function Conversation() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <h3 className="text-base font-bold text-white mb-2">Connect to Real AI</h3>
-                <p className="text-sm text-[#71717A] mb-4">Add your OpenAI API key to use GPT-4o for real, dynamic conversations. Without a key, smart mock responses are used.</p>
+                <p className="text-sm text-[#71717A] mb-4">Groqの無料APIキーを追加するとリアルAIと会話できます。<a href="https://console.groq.com/keys" target="_blank" rel="noopener noreferrer" className="text-[#F59E0B] underline">console.groq.com</a>で無料取得できます。キーなしでもデモ会話を楽しめます。</p>
                 <input
                   type="password"
-                  placeholder="sk-..."
+                  placeholder="gsk_..."
                   value={apiKey}
                   onChange={(e) => setApiKey(e.target.value)}
                   className="w-full bg-[#1A1A1E] border border-[#27272A] rounded-xl px-4 py-3 text-sm text-white placeholder-[#52525B] focus:outline-none focus:border-[#F59E0B]/50 mb-4"
@@ -335,7 +335,7 @@ export default function Conversation() {
           </button>
         </div>
         <p className="text-[10px] text-[#52525B] mt-2 text-center">
-          {apiKey ? '🟢 GPT-4o connected' : '⚡ Demo mode — add OpenAI API key for real AI responses'}
+          {apiKey ? '🟢 Groq AI connected' : '⚡ デモモード — Groqキーを追加するとリアルAIに切り替わります（無料）'}
         </p>
       </div>
     </div>
