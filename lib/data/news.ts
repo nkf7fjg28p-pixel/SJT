@@ -1,0 +1,73 @@
+import type { NewsArticle } from '@/types';
+
+export const newsArticles: NewsArticle[] = [
+  {
+    id: 'japan-ai-2025',
+    title: 'Japan Bets Big on AI to Counter Demographic Decline',
+    summary: 'As Japan\'s workforce shrinks, the government is investing ¥10 trillion in AI and automation — but can technology replace human workers?',
+    category: 'Technology',
+    readTime: 6,
+    date: '2025-03-15',
+    imageEmoji: '🤖',
+    body: `Japan is facing an unprecedented demographic crisis. With a fertility rate of just 1.2 — far below the 2.1 needed to maintain population — Japan's working-age population is shrinking rapidly. By 2050, Japan's population is projected to fall from 125 million to under 100 million.\n\nIn response, the government has announced a ¥10 trillion investment in artificial intelligence, robotics, and automation across key sectors including manufacturing, healthcare, and agriculture. Prime Minister Kishida called it "the most significant economic transformation since the post-war reconstruction."\n\nHowever, economists are divided on whether technology can truly compensate for demographic decline. Japan already leads the world in industrial robotics — it has more robots per manufacturing worker than any other country. Yet productivity growth has remained stubbornly slow.\n\nSome argue the real barrier is cultural. Japan's hierarchical corporate culture and seniority-based promotion systems have been slow to adopt disruptive technologies, even when the tools are available. A 2024 survey found that 68% of Japanese companies still use fax machines as a primary business communication tool.\n\nOthers point to a more fundamental issue: AI can replace tasks, but Japan's deeper problem is that its entire social infrastructure — pension systems, healthcare, rural communities — was designed for a growing population. No algorithm can fix that.`,
+    vocabulary: [
+      { word: 'demographic', ipa: 'ˌdeməˈɡræfɪk', meaning: '人口統計学的 — relating to the structure of a population' },
+      { word: 'fertility rate', ipa: 'fɜːˈtɪlɪti reɪt', meaning: '出生率 — the average number of children born per woman' },
+      { word: 'automation', ipa: 'ˌɔːtəˈmeɪʃən', meaning: '自動化 — use of technology to perform tasks without human input' },
+      { word: 'hierarchical', ipa: 'ˌhaɪəˈrɑːrkɪkəl', meaning: '階層的な — arranged in a system with different levels of authority' },
+      { word: 'stubbornly', ipa: 'ˈstʌbənli', meaning: '頑固に — in a way that is difficult to change or influence' },
+    ],
+    discussionQuestions: [
+      'Can AI and automation truly solve Japan\'s demographic problem? Why or why not?',
+      'Why might Japan\'s corporate culture slow the adoption of AI?',
+      'What lessons can other aging societies learn from Japan\'s situation?',
+      'If you were advising the Japanese government, what would you recommend beyond AI investment?',
+    ],
+  },
+  {
+    id: 'overtourism-kyoto',
+    title: 'Kyoto Fights Back Against Overtourism',
+    summary: 'With 50 million visitors annually, Kyoto is banning tourists from certain geisha districts and charging new fees — but is it enough?',
+    category: 'Travel',
+    readTime: 5,
+    date: '2025-03-10',
+    imageEmoji: '⛩️',
+    body: `The narrow lanes of Kyoto's Gion district were once the domain of geiko (geisha) and the wealthy patrons of the ochaya teahouses. Today, they are flooded with tourists wielding smartphones, some reportedly grabbing geiko's kimonos for photographs.\n\nKyoto, Japan's former imperial capital, welcomed a record 53 million visitors in 2024, putting enormous strain on a city of just 1.5 million residents. Residents complain of crowded buses, noise at all hours, and a fundamental change in the city's character.\n\nIn response, Kyoto has implemented Japan's most aggressive anti-overtourism measures. The Gion district's Hanamikoji Street — the most-photographed street in Japan — now bans tourists from private alleys. Fines of ¥10,000 can be issued for violations. The city has also raised taxes on overnight stays and restricted tourist buses from key areas.\n\nBut some argue these measures are too late and too timid. Tokyo University professor Kenji Watanabe notes: "Kyoto is trying to preserve the very thing that attracted tourists — its authentic culture — but the volume of visitors has already eroded much of that authenticity."\n\nThe deeper question is whether mass tourism and cultural preservation can truly coexist, or whether Kyoto must make a fundamental choice about what kind of city it wants to be.`,
+    vocabulary: [
+      { word: 'overtourism', ipa: 'ˌoʊvərˈtʊərɪzəm', meaning: 'オーバーツーリズム — excessive tourist numbers harming a destination' },
+      { word: 'strain', ipa: 'streɪn', meaning: '圧力・負担 — a force that stretches something to its limits' },
+      { word: 'authenticity', ipa: 'ˌɔːθenˈtɪsɪti', meaning: '真正性 — the quality of being genuine or original' },
+      { word: 'coexist', ipa: 'ˌkəʊɪɡˈzɪst', meaning: '共存する — to exist at the same time without conflict' },
+      { word: 'erode', ipa: 'ɪˈrəʊd', meaning: '侵食する — to gradually destroy or diminish' },
+    ],
+    discussionQuestions: [
+      'Should tourists be restricted from accessing certain cultural sites? What are the trade-offs?',
+      'How would you explain Japan\'s overtourism problem to a foreign visitor?',
+      'What responsibility do tourists have when visiting culturally sensitive places?',
+      'If you were the mayor of Kyoto, what three policies would you implement?',
+    ],
+  },
+  {
+    id: 'japan-longevity',
+    title: 'The Science Behind Japan\'s Extraordinary Longevity',
+    summary: 'Japan has the world\'s highest proportion of centenarians. Scientists are now uncovering which aspects of Japanese lifestyle might hold the key.',
+    category: 'Health',
+    readTime: 7,
+    date: '2025-03-05',
+    imageEmoji: '🌸',
+    body: `Japan is home to more people over 100 years old than any other nation — nearly 90,000 centenarians and counting. Okinawa prefecture was once so famous for longevity that it was studied as one of the world's original "Blue Zones."\n\nResearchers have identified several factors that may explain Japanese longevity. Diet is primary: the traditional Japanese diet is high in fish, fermented foods, seaweed, and vegetables, and extremely low in saturated fats and red meat. The concept of "hara hachi bu" — eating until you are 80% full — naturally limits caloric intake.\n\nSocial connection also plays a critical role. Japan's concept of "moai" in Okinawa — small social groups that support each other financially and emotionally throughout life — has been linked to reduced stress and longer lives. Loneliness, increasingly recognized as a major health risk, is less common in communities with strong social bonds.\n\nPurpose may be equally important. The concept of ikigai — having a reason to get up every morning — correlates strongly with longevity in Japanese studies. A 2019 study of 73,000 Japanese adults found those with a strong sense of ikigai had significantly lower mortality rates.\n\nHowever, Okinawa's longevity advantage is fading. As American fast food chains expanded after World War Two (the US occupied Okinawa until 1972), younger Okinawans now have obesity rates above the Japanese average, and their exceptional longevity statistics are declining.`,
+    vocabulary: [
+      { word: 'centenarian', ipa: 'ˌsentɪˈneəriən', meaning: '百歳以上の人 — a person who is 100 or more years old' },
+      { word: 'longevity', ipa: 'lɒnˈdʒevɪti', meaning: '長寿 — long life; long duration' },
+      { word: 'fermented', ipa: 'fɜːˈmentɪd', meaning: '発酵した — (of food) produced by a process of fermentation' },
+      { word: 'mortality rate', ipa: 'mɔːˈtælɪti reɪt', meaning: '死亡率 — the number of deaths in a population over time' },
+      { word: 'correlate', ipa: 'ˈkɒrəleɪt', meaning: '相関する — to have a mutual relationship or connection' },
+    ],
+    discussionQuestions: [
+      'Which aspect of the Japanese lifestyle do you think contributes most to longevity?',
+      'How would you explain the concept of ikigai and hara hachi bu to a foreign visitor?',
+      'Why might Okinawa\'s longevity advantage be declining?',
+      'What can the world learn from Japan about aging well?',
+    ],
+  },
+];
