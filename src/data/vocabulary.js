@@ -4,6 +4,7 @@ export const vocabularyData = [
   // ===== AESTHETICS & PHILOSOPHY =====
   {
     id: 1, word: "impermanence", japanese: "無常", category: "philosophy", difficulty: 3,
+    ipa: "ɪmˈpɜːrmənəns",
     definition: "The state of lasting only for a limited period; transience",
     definitionOptions: [
       "The state of lasting only for a limited period; transience",
@@ -24,6 +25,7 @@ export const vocabularyData = [
   },
   {
     id: 2, word: "wabi-sabi", japanese: "侘び寂び", category: "philosophy", difficulty: 3,
+    ipa: "wɑːbi sɑːbi",
     definition: "A Japanese aesthetic worldview centered on the acceptance of transience and imperfection",
     definitionOptions: [
       "A Japanese aesthetic worldview centered on the acceptance of transience and imperfection",
@@ -44,6 +46,7 @@ export const vocabularyData = [
   },
   {
     id: 3, word: "mono no aware", japanese: "物の哀れ", category: "philosophy", difficulty: 4,
+    ipa: "moʊnoʊ noʊ əˈwɑːreɪ",
     definition: "A Japanese concept of bittersweet appreciation for the transience of things",
     definitionOptions: [
       "A Japanese concept of bittersweet appreciation for the transience of things",
@@ -64,6 +67,7 @@ export const vocabularyData = [
   },
   {
     id: 4, word: "ikigai", japanese: "生き甲斐", category: "philosophy", difficulty: 3,
+    ipa: "iːkiɡaɪ",
     definition: "A Japanese concept meaning the reason for being; a source of purpose and motivation in life",
     definitionOptions: [
       "A Japanese concept meaning the reason for being; a source of purpose and motivation in life",
@@ -84,6 +88,7 @@ export const vocabularyData = [
   },
   {
     id: 5, word: "contemplative", japanese: "瞑想的な・内省的な", category: "philosophy", difficulty: 3,
+    ipa: "kənˈtemplətɪv",
     definition: "Expressing or involving prolonged thought; meditative",
     definitionOptions: [
       "Expressing or involving prolonged thought; meditative",
@@ -104,6 +109,7 @@ export const vocabularyData = [
   },
   {
     id: 6, word: "austere", japanese: "質素な・厳格な", category: "aesthetics", difficulty: 3,
+    ipa: "ɔːˈstɪər",
     definition: "Having an extremely plain and simple style; without luxury or ornamentation",
     definitionOptions: [
       "Having an extremely plain and simple style; without luxury or ornamentation",
@@ -124,6 +130,7 @@ export const vocabularyData = [
   },
   {
     id: 7, word: "ephemeral", japanese: "はかない・短命の", category: "philosophy", difficulty: 3,
+    ipa: "ɪˈfemərəl",
     definition: "Lasting for a very short time; transitory",
     definitionOptions: [
       "Lasting for a very short time; transitory",
@@ -144,6 +151,7 @@ export const vocabularyData = [
   },
   {
     id: 8, word: "juxtaposition", japanese: "並置・対比", category: "aesthetics", difficulty: 4,
+    ipa: "ˌdʒʌkstəpəˈzɪʃən",
     definition: "The fact of two contrasting things being placed close together for comparison or contrast",
     definitionOptions: [
       "The fact of two contrasting things being placed close together for comparison or contrast",
@@ -164,6 +172,7 @@ export const vocabularyData = [
   },
   {
     id: 9, word: "venerate", japanese: "崇拝する・崇める", category: "culture", difficulty: 4,
+    ipa: "ˈvenəreɪt",
     definition: "To regard with great respect; to revere",
     definitionOptions: [
       "To regard with great respect; to revere",
@@ -184,6 +193,7 @@ export const vocabularyData = [
   },
   {
     id: 10, word: "reverence", japanese: "崇拝・畏敬の念", category: "culture", difficulty: 3,
+    ipa: "ˈrevərəns",
     definition: "Deep respect for someone or something, often with a sense of awe",
     definitionOptions: [
       "Deep respect for someone or something, often with a sense of awe",
@@ -206,6 +216,7 @@ export const vocabularyData = [
   // ===== ARCHITECTURE & HERITAGE =====
   {
     id: 11, word: "edifice", japanese: "大建造物・堂々たる建物", category: "architecture", difficulty: 4,
+    ipa: "ˈedɪfɪs",
     definition: "A large, imposing building, especially one of architectural significance",
     definitionOptions: [
       "A large, imposing building, especially one of architectural significance",
@@ -226,6 +237,7 @@ export const vocabularyData = [
   },
   {
     id: 12, word: "rampart", japanese: "城壁・防壁", category: "architecture", difficulty: 4,
+    ipa: "ˈræmpɑːrt",
     definition: "A defensive wall of a castle or walled city, typically with a walkway on top",
     definitionOptions: [
       "A defensive wall of a castle or walled city, typically with a walkway on top",
@@ -246,6 +258,7 @@ export const vocabularyData = [
   },
   {
     id: 13, word: "precinct", japanese: "境内・区域", category: "architecture", difficulty: 4,
+    ipa: "ˈpriːsɪŋkt",
     definition: "An area within defined boundaries, especially the enclosed area surrounding a place of worship",
     definitionOptions: [
       "An area within defined boundaries, especially the enclosed area surrounding a place of worship",
@@ -266,6 +279,7 @@ export const vocabularyData = [
   },
   {
     id: 14, word: "gilded", japanese: "金箔を施した・金で覆われた", category: "architecture", difficulty: 3,
+    ipa: "ˈɡɪldɪd",
     definition: "Covered thinly with gold or gold paint; having a deceptively attractive appearance",
     definitionOptions: [
       "Covered thinly with gold or gold paint; having a deceptively attractive appearance",
@@ -286,6 +300,7 @@ export const vocabularyData = [
   },
   {
     id: 15, word: "ornate", japanese: "華麗な装飾を施した", category: "aesthetics", difficulty: 3,
+    ipa: "ɔːrˈneɪt",
     definition: "Elaborately adorned or decorated, often to an excessive degree",
     definitionOptions: [
       "Elaborately adorned or decorated, often to an excessive degree",
@@ -308,6 +323,7 @@ export const vocabularyData = [
   // ===== CULTURAL PRACTICES =====
   {
     id: 16, word: "ritualistic", japanese: "儀式的な・形式的な", category: "culture", difficulty: 3,
+    ipa: "ˌrɪtʃuəˈlɪstɪk",
     definition: "Relating to or characteristic of religious or solemn rituals",
     definitionOptions: [
       "Relating to or characteristic of religious or solemn rituals",
@@ -328,6 +344,7 @@ export const vocabularyData = [
   },
   {
     id: 17, word: "artisan", japanese: "職人・工匠", category: "culture", difficulty: 3,
+    ipa: "ˈɑːrtɪzən",
     definition: "A skilled worker who makes things by hand using traditional methods",
     definitionOptions: [
       "A skilled worker who makes things by hand using traditional methods",
@@ -348,6 +365,7 @@ export const vocabularyData = [
   },
   {
     id: 18, word: "craftsmanship", japanese: "職人技・手腕", category: "culture", difficulty: 3,
+    ipa: "ˈkræftsmənʃɪp",
     definition: "The quality of design and work shown in something made by hand; skill in a particular craft",
     definitionOptions: [
       "The quality of design and work shown in something made by hand; skill in a particular craft",
@@ -368,6 +386,7 @@ export const vocabularyData = [
   },
   {
     id: 19, word: "connoisseur", japanese: "目利き・通", category: "culture", difficulty: 4,
+    ipa: "ˌkɒnəˈsɜːr",
     definition: "An expert judge in matters of taste, especially in fine arts, food, or wine",
     definitionOptions: [
       "An expert judge in matters of taste, especially in fine arts, food, or wine",
@@ -388,6 +407,7 @@ export const vocabularyData = [
   },
   {
     id: 20, word: "meticulous", japanese: "細心の注意を払う", category: "culture", difficulty: 3,
+    ipa: "məˈtɪkjʊləs",
     definition: "Showing great attention to detail or being very careful and precise",
     definitionOptions: [
       "Showing great attention to detail or being very careful and precise",
@@ -408,6 +428,7 @@ export const vocabularyData = [
   },
   {
     id: 21, word: "pilgrimage", japanese: "巡礼", category: "culture", difficulty: 3,
+    ipa: "ˈpɪlɡrɪmɪdʒ",
     definition: "A journey to a sacred place for religious purposes; any journey to a place of personal significance",
     definitionOptions: [
       "A journey to a sacred place for religious purposes; any journey to a place of personal significance",
@@ -428,6 +449,7 @@ export const vocabularyData = [
   },
   {
     id: 22, word: "auspicious", japanese: "縁起の良い・吉兆の", category: "culture", difficulty: 4,
+    ipa: "ɔːˈspɪʃəs",
     definition: "Conducive to success; indicating a positive outcome; of good omen",
     definitionOptions: [
       "Conducive to success; indicating a positive outcome; of good omen",
@@ -448,6 +470,7 @@ export const vocabularyData = [
   },
   {
     id: 23, word: "esoteric", japanese: "難解な・秘伝の", category: "culture", difficulty: 4,
+    ipa: "ˌesəˈterɪk",
     definition: "Intended for or understood by only a small group with specialized knowledge",
     definitionOptions: [
       "Intended for or understood by only a small group with specialized knowledge",
@@ -468,6 +491,7 @@ export const vocabularyData = [
   },
   {
     id: 24, word: "indigenous", japanese: "固有の・土着の", category: "culture", difficulty: 3,
+    ipa: "ɪnˈdɪdʒənəs",
     definition: "Originating or occurring naturally in a particular place; native",
     definitionOptions: [
       "Originating or occurring naturally in a particular place; native",
@@ -488,6 +512,7 @@ export const vocabularyData = [
   },
   {
     id: 25, word: "enshrine", japanese: "神聖視する・祀る", category: "culture", difficulty: 4,
+    ipa: "ɪnˈʃraɪn",
     definition: "To preserve or cherish as sacred; to place in or as if in a shrine",
     definitionOptions: [
       "To preserve or cherish as sacred; to place in or as if in a shrine",
@@ -510,6 +535,7 @@ export const vocabularyData = [
   // ===== NATURE & LANDSCAPE =====
   {
     id: 26, word: "geothermal", japanese: "地熱の", category: "nature", difficulty: 3,
+    ipa: "ˌdʒiːoʊˈθɜːrməl",
     definition: "Relating to or produced by the internal heat of the earth",
     definitionOptions: [
       "Relating to or produced by the internal heat of the earth",
@@ -530,6 +556,7 @@ export const vocabularyData = [
   },
   {
     id: 27, word: "endemic", japanese: "固有種の・その地域特有の", category: "nature", difficulty: 4,
+    ipa: "enˈdemɪk",
     definition: "Native and restricted to a certain region; (of disease) regularly found in a particular area",
     definitionOptions: [
       "Native and restricted to a certain region; regularly found in a particular area",
@@ -550,6 +577,7 @@ export const vocabularyData = [
   },
   {
     id: 28, word: "deciduous", japanese: "落葉性の", category: "nature", difficulty: 3,
+    ipa: "dɪˈsɪdʒuəs",
     definition: "Shedding leaves annually; falling off or shed seasonally",
     definitionOptions: [
       "Shedding leaves annually; falling off or shed seasonally",
@@ -570,6 +598,7 @@ export const vocabularyData = [
   },
   {
     id: 29, word: "promontory", japanese: "岬・突出した高地", category: "nature", difficulty: 5,
+    ipa: "ˈprɒməntri",
     definition: "A point of high land that juts out into the sea or a large lake",
     definitionOptions: [
       "A point of high land that juts out into the sea or a large lake",
@@ -590,6 +619,7 @@ export const vocabularyData = [
   },
   {
     id: 30, word: "topography", japanese: "地形・地勢", category: "nature", difficulty: 4,
+    ipa: "təˈpɒɡrəfi",
     definition: "The arrangement of the natural and artificial physical features of an area",
     definitionOptions: [
       "The arrangement of the natural and artificial physical features of an area",
@@ -612,6 +642,7 @@ export const vocabularyData = [
   // ===== GASTRONOMY =====
   {
     id: 31, word: "gastronomy", japanese: "美食学・食の芸術", category: "food", difficulty: 4,
+    ipa: "ɡæˈstrɒnəmi",
     definition: "The art and knowledge involved in preparing and appreciating fine food",
     definitionOptions: [
       "The art and knowledge involved in preparing and appreciating fine food",
@@ -632,6 +663,7 @@ export const vocabularyData = [
   },
   {
     id: 32, word: "umami", japanese: "旨味", category: "food", difficulty: 3,
+    ipa: "uːˈmɑːmi",
     definition: "A savory taste that is one of the five basic tastes, distinct from sweet, sour, bitter, and salty",
     definitionOptions: [
       "A savory taste that is one of the five basic tastes, distinct from sweet, sour, bitter, and salty",
@@ -652,6 +684,7 @@ export const vocabularyData = [
   },
   {
     id: 33, word: "fermentation", japanese: "発酵", category: "food", difficulty: 3,
+    ipa: "ˌfɜːrmenˈteɪʃən",
     definition: "A metabolic process by which microorganisms convert sugars into acids, gases, or alcohol",
     definitionOptions: [
       "A metabolic process by which microorganisms convert sugars into acids, gases, or alcohol",
@@ -672,6 +705,7 @@ export const vocabularyData = [
   },
   {
     id: 34, word: "provenance", japanese: "出所・産地・来歴", category: "food", difficulty: 5,
+    ipa: "ˈprɒvənəns",
     definition: "The place of origin or earliest known history of something; a record of ownership",
     definitionOptions: [
       "The place of origin or earliest known history of something; a record of ownership",
@@ -692,6 +726,7 @@ export const vocabularyData = [
   },
   {
     id: 35, word: "palate", japanese: "味覚・好み", category: "food", difficulty: 3,
+    ipa: "ˈpælɪt",
     definition: "A person's ability to distinguish between and appreciate different flavors; personal taste",
     definitionOptions: [
       "A person's ability to distinguish between and appreciate different flavors; personal taste",
@@ -714,6 +749,7 @@ export const vocabularyData = [
   // ===== TRANSPORT & INFRASTRUCTURE =====
   {
     id: 36, word: "punctuality", japanese: "時間の正確さ・定時性", category: "transport", difficulty: 3,
+    ipa: "ˌpʌŋktʃuˈælɪti",
     definition: "The habit or quality of doing things at the scheduled or proper time",
     definitionOptions: [
       "The habit or quality of doing things at the scheduled or proper time",
@@ -734,6 +770,7 @@ export const vocabularyData = [
   },
   {
     id: 37, word: "infrastructure", japanese: "インフラ・社会基盤", category: "transport", difficulty: 3,
+    ipa: "ˈɪnfrəstrʌktʃər",
     definition: "The basic physical and organizational structures needed for a society to function",
     definitionOptions: [
       "The basic physical and organizational structures needed for a society to function",
@@ -754,6 +791,7 @@ export const vocabularyData = [
   },
   {
     id: 38, word: "interoperability", japanese: "相互運用性", category: "transport", difficulty: 5,
+    ipa: "ˌɪntərˌɒpərəˈbɪlɪti",
     definition: "The ability of different systems or organizations to work together effectively",
     definitionOptions: [
       "The ability of different systems or organizations to work together effectively",
@@ -776,6 +814,7 @@ export const vocabularyData = [
   // ===== HERITAGE & PRESERVATION =====
   {
     id: 39, word: "intangible", japanese: "無形の", category: "heritage", difficulty: 3,
+    ipa: "ɪnˈtændʒɪbəl",
     definition: "Unable to be touched or grasped; not having a physical presence; difficult to define",
     definitionOptions: [
       "Unable to be touched or grasped; not having a physical presence; difficult to define",
@@ -796,6 +835,7 @@ export const vocabularyData = [
   },
   {
     id: 40, word: "preservation", japanese: "保存・保護", category: "heritage", difficulty: 3,
+    ipa: "ˌprezərˈveɪʃən",
     definition: "The action of keeping something in its original state or preventing it from deteriorating",
     definitionOptions: [
       "The action of keeping something in its original state or preventing it from deteriorating",
@@ -816,6 +856,7 @@ export const vocabularyData = [
   },
   {
     id: 41, word: "patronage", japanese: "後援・支援", category: "heritage", difficulty: 4,
+    ipa: "ˈpeɪtrənɪdʒ",
     definition: "The support given by a patron to an artist, organization, or cause",
     definitionOptions: [
       "The support given by a patron to an artist, organization, or cause",
@@ -836,6 +877,7 @@ export const vocabularyData = [
   },
   {
     id: 42, word: "antiquity", japanese: "古代・古代の遺物", category: "heritage", difficulty: 4,
+    ipa: "ænˈtɪkwɪti",
     definition: "The ancient past, especially before the Middle Ages; ancient objects or buildings",
     definitionOptions: [
       "The ancient past, especially before the Middle Ages; ancient objects or buildings",
@@ -858,6 +900,7 @@ export const vocabularyData = [
   // ===== SOCIAL & BEHAVIORAL =====
   {
     id: 43, word: "omotenashi", japanese: "おもてなし（日本式おもてなし）", category: "culture", difficulty: 3,
+    ipa: "oʊmoʊtɛnɑːʃi",
     definition: "The Japanese concept of wholehearted hospitality that anticipates guests' needs without expectation of reward",
     definitionOptions: [
       "The Japanese concept of wholehearted hospitality that anticipates guests' needs without expectation of reward",
@@ -878,6 +921,7 @@ export const vocabularyData = [
   },
   {
     id: 44, word: "deference", japanese: "敬意・従順", category: "social", difficulty: 4,
+    ipa: "ˈdefərəns",
     definition: "Respectful submission to the opinion or wishes of another; polite yielding",
     definitionOptions: [
       "Respectful submission to the opinion or wishes of another; polite yielding",
@@ -898,6 +942,7 @@ export const vocabularyData = [
   },
   {
     id: 45, word: "circumspect", japanese: "慎重な・用心深い", category: "social", difficulty: 5,
+    ipa: "ˈsɜːrkəmspekt",
     definition: "Wary and unwilling to take risks; careful to consider all circumstances",
     definitionOptions: [
       "Wary and unwilling to take risks; careful to consider all circumstances",
@@ -918,6 +963,7 @@ export const vocabularyData = [
   },
   {
     id: 46, word: "nuanced", japanese: "ニュアンスのある・微妙な", category: "social", difficulty: 3,
+    ipa: "ˈnjuːɑːnst",
     definition: "Characterized by subtle distinctions or variations; not simple or straightforward",
     definitionOptions: [
       "Characterized by subtle distinctions or variations; not simple or straightforward",
@@ -938,6 +984,7 @@ export const vocabularyData = [
   },
   {
     id: 47, word: "hierarchy", japanese: "階層制度・序列", category: "social", difficulty: 3,
+    ipa: "ˈhaɪərɑːrki",
     definition: "A system in which people or things are organized into levels of importance",
     definitionOptions: [
       "A system in which people or things are organized into levels of importance",
@@ -958,6 +1005,7 @@ export const vocabularyData = [
   },
   {
     id: 48, word: "solidarity", japanese: "連帯・団結", category: "social", difficulty: 3,
+    ipa: "ˌsɒlɪˈdærɪti",
     definition: "Unity arising from common interests, goals, or sympathies; mutual support",
     definitionOptions: [
       "Unity arising from common interests, goals, or sympathies; mutual support",
@@ -980,6 +1028,7 @@ export const vocabularyData = [
   // ===== ADVANCED VOCABULARY =====
   {
     id: 49, word: "sublime", japanese: "崇高な・壮大な", category: "aesthetics", difficulty: 4,
+    ipa: "səˈblaɪm",
     definition: "Of such excellence or beauty as to inspire great admiration or awe",
     definitionOptions: [
       "Of such excellence or beauty as to inspire great admiration or awe",
@@ -1000,6 +1049,7 @@ export const vocabularyData = [
   },
   {
     id: 50, word: "lacquered", japanese: "漆塗りの", category: "culture", difficulty: 3,
+    ipa: "ˈlækərd",
     definition: "Coated with lacquer, a hard glossy varnish made from tree resin, creating a smooth, polished surface",
     definitionOptions: [
       "Coated with lacquer, a hard glossy varnish made from tree resin, creating a smooth, polished surface",
@@ -1020,6 +1070,7 @@ export const vocabularyData = [
   },
   {
     id: 51, word: "quintessential", japanese: "典型的な・本質的な", category: "general", difficulty: 4,
+    ipa: "ˌkwɪntɪˈsenʃəl",
     definition: "Representing the most perfect or typical example of a quality or class",
     definitionOptions: [
       "Representing the most perfect or typical example of a quality or class",
@@ -1040,6 +1091,7 @@ export const vocabularyData = [
   },
   {
     id: 52, word: "antiquarian", japanese: "古物研究家・骨董品愛好家", category: "heritage", difficulty: 5,
+    ipa: "ˌæntɪˈkweəriən",
     definition: "A person who studies or collects antiques or antiquities; relating to such study",
     definitionOptions: [
       "A person who studies or collects antiques or antiquities; relating to such study",
@@ -1060,6 +1112,7 @@ export const vocabularyData = [
   },
   {
     id: 53, word: "stoic", japanese: "ストア哲学の・感情を抑えた", category: "social", difficulty: 3,
+    ipa: "ˈstəʊɪk",
     definition: "Enduring pain or hardship without showing feelings or complaining",
     definitionOptions: [
       "Enduring pain or hardship without showing feelings or complaining",
@@ -1080,6 +1133,7 @@ export const vocabularyData = [
   },
   {
     id: 54, word: "resilience", japanese: "回復力・しなやかさ", category: "general", difficulty: 3,
+    ipa: "rɪˈzɪliəns",
     definition: "The capacity to recover quickly from difficulties; the ability to adapt to adversity",
     definitionOptions: [
       "The capacity to recover quickly from difficulties; the ability to adapt to adversity",
@@ -1100,6 +1154,7 @@ export const vocabularyData = [
   },
   {
     id: 55, word: "paradox", japanese: "逆説・パラドックス", category: "general", difficulty: 3,
+    ipa: "ˈpærədɒks",
     definition: "A statement or situation that seems contradictory but may contain an underlying truth",
     definitionOptions: [
       "A statement or situation that seems contradictory but may contain an underlying truth",

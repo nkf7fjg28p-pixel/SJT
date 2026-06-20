@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { phrasesData } from '../data/phrases';
+import { SpeakButton } from './SpeakButton';
 
 export default function Phrases() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -34,12 +35,18 @@ export default function Phrases() {
                     onClick={() => toggleFlip(cat.id, si, pi)}
                   >
                     <div className="phrase-front">
-                      <span className="phrase-en">{phrase.en}</span>
+                      <div className="phrase-front-row">
+                        <span className="phrase-en">{phrase.en}</span>
+                        <SpeakButton text={phrase.en} size="sm" rate={0.8} />
+                      </div>
                       <span className="tap-hint">タップして日本語を表示</span>
                     </div>
                     <div className="phrase-back">
                       <span className="phrase-ja">{phrase.ja}</span>
-                      <span className="phrase-en-small">{phrase.en}</span>
+                      <div className="phrase-back-row">
+                        <span className="phrase-en-small">{phrase.en}</span>
+                        <SpeakButton text={phrase.en} size="sm" rate={0.75} />
+                      </div>
                     </div>
                   </div>
                 );

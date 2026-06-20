@@ -5,6 +5,7 @@ import {
   getQuestionType, getMasteryLabel, getMasteryColor,
   selectSessionWords
 } from '../data/masteryStore';
+import { SpeakButton, PronunciationBar } from './SpeakButton';
 
 function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
 
@@ -196,7 +197,11 @@ export default function Quiz({ onUpdateProgress }) {
             return (
               <div key={w.id} className="word-row">
                 <div className="word-row-left">
-                  <span className="word-row-en">{w.word}</span>
+                  <div className="word-row-head">
+                    <span className="word-row-en">{w.word}</span>
+                    <SpeakButton text={w.word} size="sm" />
+                  </div>
+                  {w.ipa && <span className="word-row-ipa">/{w.ipa}/</span>}
                   <span className="word-row-ja">{w.japanese}</span>
                   <span className="word-row-def">{w.definition}</span>
                 </div>
@@ -245,16 +250,19 @@ export default function Quiz({ onUpdateProgress }) {
             <>
               <p className="q-ask-small">正しい単語を選んで文を完成させよ</p>
               <h3 className="q-blank">{q.prompt}</h3>
+              <PronunciationBar word={item.word.word} ipa={item.word.ipa} />
             </>
           ) : q.type === 'usage' ? (
             <>
               <p className="q-ask-small">どの文が単語を正しく使っているか</p>
               <h3 className="q-word">{q.prompt}</h3>
+              <PronunciationBar word={item.word.word} ipa={item.word.ipa} />
               {q.sub && <p className="q-sub">{q.sub}</p>}
             </>
           ) : (
             <>
               <h3 className="q-word">{q.prompt}</h3>
+              <PronunciationBar word={item.word.word} ipa={item.word.ipa} />
               {q.sub && <p className="q-sub">{q.sub}</p>}
               <p className="q-ask">{q.typeLabel}</p>
             </>

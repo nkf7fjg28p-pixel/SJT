@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { readingsData } from '../data/readings';
+import { SpeakButton } from './SpeakButton';
 
 const levelLabel = { basic: '初級', intermediate: '中級', advanced: '上級' };
 const levelColor = { basic: '#5BAD6F', intermediate: '#E67E22', advanced: '#E85D5D' };
@@ -51,8 +52,15 @@ export default function Reading({ onUpdateProgress }) {
         </div>
 
         <div className="reading-text">
+          <div className="reading-listen-bar">
+            <span className="reading-listen-label">📢 本文を聞く</span>
+            <SpeakButton text={selected.text.replace(/\n\n/g, ' ')} size="md" rate={0.78} label="全文読み上げ" />
+          </div>
           {selected.text.split('\n\n').map((para, i) => (
-            <p key={i}>{para}</p>
+            <div key={i} className="reading-para-row">
+              <p>{para}</p>
+              <SpeakButton text={para} size="sm" rate={0.8} />
+            </div>
           ))}
         </div>
 

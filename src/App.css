@@ -1,3 +1,169 @@
+/* ===== Speech / Pronunciation ===== */
+.speak-btn {
+  background: none;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.speak-btn:hover { border-color: var(--primary); color: var(--primary); background: #FDEDEC; }
+
+.speak-btn.speaking {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: #FDEDEC;
+  animation: pulse-border 0.8s ease-in-out infinite;
+}
+
+.speak-label { font-size: 12px; font-weight: 600; }
+
+@keyframes pulse-border {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(192,57,43,0.3); }
+  50% { box-shadow: 0 0 0 4px rgba(192,57,43,0.1); }
+}
+
+.pron-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  flex-wrap: wrap;
+}
+
+.pron-ipa {
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+  color: #6C3483;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: #F4F0FB;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.pron-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.15s;
+}
+
+.pron-btn:hover { background: var(--primary-light); }
+
+.pron-btn.speaking {
+  background: #6C3483;
+}
+
+.pron-wave {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 16px;
+}
+
+.pron-wave span {
+  display: inline-block;
+  width: 3px;
+  background: white;
+  border-radius: 2px;
+  animation: wave 0.6s ease-in-out infinite;
+}
+
+.pron-wave span:nth-child(1) { height: 6px; animation-delay: 0s; }
+.pron-wave span:nth-child(2) { height: 14px; animation-delay: 0.1s; }
+.pron-wave span:nth-child(3) { height: 10px; animation-delay: 0.2s; }
+.pron-wave span:nth-child(4) { height: 6px; animation-delay: 0.3s; }
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.5); }
+  50% { transform: scaleY(1.3); }
+}
+
+.pron-no-support { font-size: 11px; color: var(--text-muted); }
+
+/* Word list pronunciation */
+.word-row-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.word-row-ipa {
+  display: block;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #6C3483;
+  background: #F4F0FB;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin: 3px 0;
+  width: fit-content;
+}
+
+/* Phrases speech */
+.phrase-front-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.phrase-back-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+/* Reading listen bar */
+.reading-listen-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #F8F4FB;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #E8DFF5;
+}
+
+.reading-listen-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6C3483;
+}
+
+.reading-para-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.reading-para-row p {
+  flex: 1;
+  margin: 0;
+  line-height: 1.8;
+}
+
 /* ===== Reset & Base ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
