@@ -7,14 +7,27 @@ export async function sendMessage(
 ): Promise<{ content: string; feedback?: Message['feedback'] }> {
 
   // If Groq API key is provided, use real AI
-  const groqKey = apiKey || process.env.NEXT_PUBLIC_GROQ_API_KEY;
-  if (groqKey) {
+  try {
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages, systemPrompt }),
+    });
+    if (response.ok) {
+      const data = await response.json();
+      return { content: data.content };
+    }
+  } catch {
+    // fall through to mock
+  }
+
+  if (apiKey) {
     try {
       const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${groqKey}`,
+          'Authorization': `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
           model: 'llama-3.3-70b-versatile',
